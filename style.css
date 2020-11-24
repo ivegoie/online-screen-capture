@@ -5,12 +5,33 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0;    
+    background-color: rgb(37, 37, 37);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(37, 37, 37);
+}
+
+h1 {
+    margin: 0;
+}
+
+.controls {
+    text-shadow: 0 7px 12px black;
+    position: absolute;
+    top: 60vh;
+    left: 0vh;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: .8rem;
+    margin: 0;
 }
 
 .button-container {

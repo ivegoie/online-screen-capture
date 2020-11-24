@@ -25,6 +25,7 @@ button.addEventListener('click', async () => {
     await screenElement.requestPictureInPicture();
     //* Reset Button
     button.disable = false
+    button.visible = false;
 });
 
 selectMediaStream();
